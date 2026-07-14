@@ -1,0 +1,15 @@
+#include "flying_fox.dtsi"
+
+/ {
+    kscan_dongle: kscan_dongle {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
+
+&physical_layout_flying_fox {
+    kscan = <&kscan_dongle>;
+};
+
