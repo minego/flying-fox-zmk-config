@@ -2,4 +2,3 @@ name: zmk-keyboard-flying-fox
 build:
   settings:
     board_root: .
-    snippet_root: .
