@@ -33,7 +33,7 @@ include:
 #    artifact-name: flying_fox_left_with_studio
 
   - board: nice_nano_v2
-    shield: flying_fox_right
+    shield: flying_fox_right nice_view
 
   - board: nice_nano_v2
     shield: settings_reset
